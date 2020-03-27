@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage SchemaVersion="1.0" AutodeskProduct="AutoCAD" Name="AcadIO" Description="AutoCAD IO Tools" AppVersion="3.0" ProductType="Application" AppNameSpace="" Author="" ProductCode="" UpgradeCode="">
+  <CompanyDetails Name="" Email="" />
+  <Components>
+    <RuntimeRequirements OS="Win64|Win32" Platform="AutoCAD*" />
+	<ComponentEntry AppName="AcadIO" AppDescription="AcadIO" ModuleName=".\AcadIO.dll" LoadOnAutoCADStartup="True"/>
+  </Components>
+</ApplicationPackage>
